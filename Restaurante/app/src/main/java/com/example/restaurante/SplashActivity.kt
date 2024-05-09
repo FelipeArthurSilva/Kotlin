@@ -10,7 +10,7 @@ class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
-
+ // Cria um atraso de 2000 milissegundos (2 segundos) antes de executar o próximo bloco de código
         Handler(Looper.getMainLooper()).postDelayed({
             val i = intent
             val j = Intent(this,PedidoActivity::class.java)
